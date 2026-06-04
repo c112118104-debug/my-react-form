@@ -1,0 +1,22 @@
+.App {
+  /* 使用 Flexbox 排版 */
+  display: flex;
+  flex-direction: column; /* 讓內容由上往下直向排列 */
+  
+  /* 置中設定 */
+  justify-content: center; /* 垂直置中 */
+  align-items: center;     /* 水平置中 */
+  
+  /* 讓這個區塊佔滿整個螢幕的可視高度 */
+  height: 100vh;
+  
+  /* 讓文字本身也保持置中 */
+  text-align: center; 
+}
+
+/* 稍微美化一下按鈕間距（選擇性） */
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
