@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://dahua.github.io/my-react-form",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^6.2.3",
