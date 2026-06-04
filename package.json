@@ -35,6 +35,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    "predeploy": "npm run build",     // 新增這行 (會在 deploy 前自動執行打包)
+    "deploy": "gh-pages -d build"     // 新增這行 (將打包好的 build 資料夾推送到 GitHub)
   },
   "eslintConfig": {
     "extends": [
